@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        #main
-        #title
-        .tribute
-        #img-div
-        #img-caption
-
-
-    </style>
     <main id="main">
         <head>
         <title id="title">Mark Giordano: A Tribute</title>
+        <link href="https://fonts.googleapis.com/css?family=Graduate&display=swap" rel="stylesheet">
+        <style>
+            #main {
+                
+            }
+            #header {
+                font-family: 'Graduate';
+            }
+            .tribute {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                max-width: 625px;
+                margin: auto;
+                background-color: yellow;
+                border-color: firebrick;
+                border-width: 15px;
+                border-style: solid;
+                padding: 20px;
+                box-shadow: 20px 20px 5px #000000;
+            }
+            #img-div {
+                resize: both;
+                overflow: auto;
+            }
+            #image {
+                max-width: 100%;
+                max-height: auto;
+            }
+            #img-caption {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #tribute-info {
+                font-family: Georgia, 'Times New Roman', Times, serif;  
+            }
+            #list {
+                list-style-type: none;
+            }
+        </style>
         </head>
         <body>
             <div class="tribute">
-                <header>
+                <header id="header">
                 <h1>Mark Giordano: A Tribute</h1>
                 <p>#5 - Captain of the Calgary Flames</p>
                 </header>
                 <div id="img-div">
-                <img src="" alt="A photo of mark giordano">
-                <caption id="img-caption">Mark Giordano digs fires a top shelf snipe past goalie guy</caption>
+                <img src="gio2.jpg" alt="A photo of mark giordano" id="image"><br>
+                <caption id="img-caption">Mark Giordano fires a top shelf snipe past goalie guy</caption>
                 </div>
                 <div id="tribute-info">
                 <h2>Some facts about Mark Giordano</h2>
-                <ul>
-                <li>stuff</li>
+                <ul id="list">
+                <li>Born October 3, 1983</li>
+                <li>Has played entire NHL career with Calgary Flames</li>
+                <li>Won the Norris Trophy after the 2018/19 season</li>
+                <li>Won the stanley cup against the tampa bay lightning in 2004, but let them have it because martin st louis is so tiny</li>
                 </ul>
-                <footer>For more information about Mark, check out his <a href="https://en.wikipedia.org/wiki/Mark_Giordano target="_blank">wikipedia page</a></footer></div>
+                <footer id="header">For more information about Mark, check out his <a href="https://en.wikipedia.org/wiki/Mark_Giordano target="_blank" id="tribute-link">wikipedia page</a></footer></div>
             </div>
         </body>
     </main>
